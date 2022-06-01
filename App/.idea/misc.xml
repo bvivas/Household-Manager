@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bottom_nav_drawable.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.192" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.19739583333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_new_transaction.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home_edit_transaction.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/fragment_new_expense.xml" value="0.17553191489361702" />
+        <entry key="app/src/main/res/layout/fragment_new_transaction.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_planning.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_settings_account_info.xml" value="0.20018115942028986" />
+        <entry key="app/src/main/res/layout/fragment_settings_accounts.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_settings_delete_account.xml" value="0.17553191489361702" />
+        <entry key="app/src/main/res/layout/fragment_settings_delete_category.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_settings_expense_categories.xml" value="0.16033434650455927" />
+        <entry key="app/src/main/res/layout/fragment_settings_income_categories.xml" value="0.16033434650455927" />
+        <entry key="app/src/main/res/layout/fragment_settings_new_account.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_settings_new_category.xml" value="0.17553191489361702" />
+        <entry key="app/src/main/res/layout/fragment_settings_new_expense_category.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_settings_new_income_category.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/fragment_start.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_stats.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/list_item_account.xml" value="0.16033434650455927" />
+        <entry key="app/src/main/res/layout/list_item_expense_category.xml" value="0.43438453713123093" />
+        <entry key="app/src/main/res/layout/list_item_income_category.xml" value="0.16033434650455927" />
+        <entry key="app/src/main/res/layout/list_item_transaction.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="androidx.room.TypeConverter" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

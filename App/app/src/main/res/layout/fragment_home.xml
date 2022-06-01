@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_light_grey">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/blue"
+                style="@style/square_card_view">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/home_title"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center">
+                </TextView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:id="@+id/quick_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/expenses_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/expenses_button_text"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/all_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue_highlight"
+                        android:text="@string/all_button_text"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/incomes_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/incomes_button_text"
+                        android:textColor="@color/black" />
+
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/transaction_list_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:layout_marginBottom="60dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

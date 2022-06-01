@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App</string>
+
+    <!-- Transactions -->
+    <string name="amount_text">Cantidad</string>
+    <string name="account_text">Cuenta</string>
+    <string name="type_text">Tipo</string>
+    <string name="type_expense_text">Gasto</string>
+    <string name="type_income_text">Ingreso</string>
+    <string name="category_text">Categoría</string>
+    <string name="note_text">Nota</string>
+    <string name="add_transaction_text">Añadir transacción</string>
+    <string name="new_transaction_text">Nueva transaction</string>
+    <string name="amount_error">Introduce una cantidad de dinero</string>
+    <string name="category_error">Selecciona una categoría</string>
+    <string name="account_error">Esta cuenta no tiene dinero suficiente</string>
+    <string name="transaction_added">¡Transacción añadida!</string>
+    <string name="old_account_error">La cuenta antigua no tiene dinero suficiente</string>
+    <string name="update_transaction_text">Actualizar transacción</string>
+
+
+    <!-- Menu -->
+    <string name="home_section_text">Inicio</string>
+    <string name="stats_section_text">Estadísticas</string>
+    <string name="transaction_section_text">Transacción</string>
+    <string name="planning_section_text">Planificación</string>
+    <string name="settings_section_text">Ajustes</string>
+
+    <!-- Hints -->
+    <string name="amount_hint">Introduce una cantidad</string>
+    <string name="account_hint">Selecciona una cuenta</string>
+    <string name="category_hint">Selecciona una categoría</string>
+    <string name="note_hint">Añade una nota</string>
+    <string name="name_hint">Introduce un nombre</string>
+
+
+    <!-- Titles -->
+    <string name="home_title">INICIO</string>
+    <string name="transaction_title">TRANSACTION</string>
+    <string name="stats_title">ESTADÍSTICAS</string>
+    <string name="planning_title">PLANIFICACIÓN</string>
+    <string name="settings_title">AJUSTES</string>
+
+    <!-- Settings -->
+    <string name="categories_accounts_text">Categorías y cuentas</string>
+    <string name="accounts_text">Cuentas</string>
+    <string name="expense_categories_text">Categorías de gastos</string>
+    <string name="income_categories_text">Categorías de ingresos</string>
+    <string name="go_back_to_settings_description">Volver a ajustes</string>
+    <string name="accounts_current_balance">Saldo actual</string>
+    <string name="go_back_to_accounts_description">Volver a cuentas</string>
+    <string name="add_new_account_text">Añadir nueva cuenta</string>
+    <string name="add_account_text">Añadir cuenta</string>
+    <string name="initial_budget_text">Cantidad inicial</string>
+    <string name="add_new_category_text">Añadir nueva categoría</string>
+    <string name="add_category_text">Añadir categoría</string>
+    <string name="add_new_expense_category_text">Añadir nueva categoría de gasto</string>
+    <string name="add_new_income_category_text">Añadir nueva categoría de ingreso</string>
+    <string name="delete_account_text">Eliminar cuenta</string>
+    <string name="delete_category_text">Eliminar categoría</string>
+    <string name="account_info_text">cuenta</string>
+    <string name="delete_category_info_text">categoría</string>
+    <string name="name_error">Introduce un nombre</string>
+    <string name="repeated_name_account_error">Ya existe una cuenta con este nombre</string>
+    <string name="repeated_name_category_error">Ya existe una categoría de este tipo con este nombre</string>
+    <string name="too_many_accounts">El máximo número de cuentas es 20</string>
+    <string name="too_many_categories">El número máximo de categorías de cada tipo es 30</string>
+
+
+    <!-- Home -->
+    <string name="expenses_button_text">Gastos</string>
+    <string name="incomes_button_text">Ingresos</string>
+    <string name="all_button_text">Todas</string>
+    <string name="edit_transaction_text">Editar transacción</string>
+    <string name="delete_transaction_text">Eliminar transacción</string>
+
+    <!-- Common -->
+    <string name="name_text">Nombre</string>
+</resources>

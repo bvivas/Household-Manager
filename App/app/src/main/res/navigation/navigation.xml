@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="es.uam.eps.tfg.app.StartFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_statsFragment"
+            app:destination="@id/statsFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_newTransactionFragment"
+            app:destination="@id/newTransactionFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_planningFragment"
+            app:destination="@id/planningFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="es.uam.eps.tfg.app.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_homeEditTransactionFragment"
+            app:destination="@id/homeEditTransactionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newTransactionFragment"
+        android:name="es.uam.eps.tfg.app.NewTransactionFragment"
+        android:label="NewTransactionFragment" >
+        <action
+            android:id="@+id/action_newTransactionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_newTransactionFragment_self"
+            app:destination="@id/newTransactionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="es.uam.eps.tfg.app.StatsFragment"
+        android:label="StatsFragment" />
+
+    <fragment
+        android:id="@+id/planningFragment"
+        android:name="es.uam.eps.tfg.app.PlanningFragment"
+        android:label="PlanningFragment" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="es.uam.eps.tfg.app.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_settingsAccountsFragment"
+            app:destination="@id/settingsAccountsFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_settingsExpenseCategoriesFragment"
+            app:destination="@id/settingsExpenseCategoriesFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_settingsIncomeCategoriesFragment"
+            app:destination="@id/settingsIncomeCategoriesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsAccountsFragment"
+        android:name="es.uam.eps.tfg.app.SettingsAccountsFragment"
+        android:label="SettingsAccountsFragment">
+        <action
+            android:id="@+id/action_settingsAccountsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:popUpTo="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_settingsAccountsFragment_to_settingsAccountInfoFragment"
+            app:destination="@id/settingsAccountInfoFragment" />
+        <action
+            android:id="@+id/action_settingsAccountsFragment_to_settingsNewAccountFragment"
+            app:destination="@id/settingsNewAccountFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsExpenseCategoriesFragment"
+        android:name="es.uam.eps.tfg.app.SettingsExpenseCategoriesFragment"
+        android:label="SettingsExpenseCategoriesFragment" >
+        <action
+            android:id="@+id/action_settingsExpenseCategoriesFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:popUpTo="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_settingsExpenseCategoriesFragment_to_settingsNewExpenseCategoryFragment"
+            app:destination="@id/settingsNewExpenseCategoryFragment" />
+        <action
+            android:id="@+id/action_settingsExpenseCategoriesFragment_to_settingsDeleteCategoryFragment"
+            app:destination="@id/settingsDeleteCategoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsIncomeCategoriesFragment"
+        android:name="es.uam.eps.tfg.app.SettingsIncomeCategoriesFragment"
+        android:label="SettingsIncomeCategoriesFragment" >
+        <action
+            android:id="@+id/action_settingsIncomeCategoriesFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:popUpTo="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_settingsIncomeCategoriesFragment_to_settingsNewIncomeCategoryFragment"
+            app:destination="@id/settingsNewIncomeCategoryFragment" />
+        <action
+            android:id="@+id/action_settingsIncomeCategoriesFragment_to_settingsDeleteCategoryFragment"
+            app:destination="@id/settingsDeleteCategoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsAccountInfoFragment"
+        android:name="es.uam.eps.tfg.app.SettingsAccountInfoFragment"
+        android:label="SettingsAccountInfoFragment" >
+        <action
+            android:id="@+id/action_settingsAccountInfoFragment_to_settingsAccountsFragment"
+            app:destination="@id/settingsAccountsFragment"
+            app:popUpTo="@id/settingsAccountsFragment" />
+        <argument
+            android:name="accountId"
+            app:argType="long"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsNewAccountFragment"
+        android:name="es.uam.eps.tfg.app.SettingsNewAccountFragment"
+        android:label="SettingsNewAccountFragment" >
+        <action
+            android:id="@+id/action_settingsNewAccountFragment_to_settingsAccountsFragment"
+            app:destination="@id/settingsAccountsFragment"
+            app:popUpTo="@id/settingsAccountsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsNewExpenseCategoryFragment"
+        android:name="es.uam.eps.tfg.app.SettingsNewExpenseCategoryFragment"
+        android:label="SettingsNewExpenseCategoryFragment" >
+        <action
+            android:id="@+id/action_settingsNewExpenseCategoryFragment_to_settingsExpenseCategoriesFragment"
+            app:destination="@id/settingsExpenseCategoriesFragment"
+            app:popUpTo="@id/settingsExpenseCategoriesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsNewIncomeCategoryFragment"
+        android:name="es.uam.eps.tfg.app.SettingsNewIncomeCategoryFragment"
+        android:label="SettingsNewIncomeCategoryFragment" >
+        <action
+            android:id="@+id/action_settingsNewIncomeCategoryFragment_to_settingsIncomeCategoriesFragment"
+            app:destination="@id/settingsIncomeCategoriesFragment"
+            app:popUpTo="@id/settingsIncomeCategoriesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeEditTransactionFragment"
+        android:name="es.uam.eps.tfg.app.HomeEditTransactionFragment"
+        android:label="HomeEditTransactionFragment" >
+        <action
+            android:id="@+id/action_homeEditTransactionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="transactionId"
+            app:argType="long"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsDeleteCategoryFragment"
+        android:name="es.uam.eps.tfg.app.SettingsDeleteCategoryFragment"
+        android:label="SettingsDeleteCategoryFragment" >
+        <action
+            android:id="@+id/action_settingsDeleteCategoryFragment_to_settingsIncomeCategoriesFragment"
+            app:destination="@id/settingsIncomeCategoriesFragment"
+            app:popUpTo="@id/settingsIncomeCategoriesFragment" />
+        <action
+            android:id="@+id/action_settingsDeleteCategoryFragment_to_settingsExpenseCategoriesFragment"
+            app:destination="@id/settingsExpenseCategoriesFragment"
+            app:popUpTo="@id/settingsExpenseCategoriesFragment" />
+        <argument
+            android:name="categoryId"
+            app:argType="long"/>
+    </fragment>
+
+</navigation>

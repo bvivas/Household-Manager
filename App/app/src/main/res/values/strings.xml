@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <!-- Transactions -->
+    <string name="amount_text">Amount</string>
+    <string name="account_text">Account</string>
+    <string name="type_text">Type</string>
+    <string name="type_expense_text">Expense</string>
+    <string name="type_income_text">Income</string>
+    <string name="category_text">Category</string>
+    <string name="note_text">Note</string>
+    <string name="add_transaction_text">Add transaction</string>
+    <string name="new_transaction_text">New transaction</string>
+    <string name="amount_error">Enter an amount of money</string>
+    <string name="category_error">Select a category</string>
+    <string name="account_error">This account does not have enough money</string>
+    <string name="transaction_added">Transaction added!</string>
+    <string name="old_account_error">The old account does not have enought money</string>
+    <string name="update_transaction_text">Update transaction</string>
+
+    <!-- Menu -->
+    <string name="home_section_text">Home</string>
+    <string name="stats_section_text">Stats</string>
+    <string name="transaction_section_text">Transaction</string>
+    <string name="planning_section_text">Planning</string>
+    <string name="settings_section_text">Settings</string>
+
+    <!-- Hints -->
+    <string name="amount_hint">Enter an amount of money</string>
+    <string name="account_hint">Select an account</string>
+    <string name="category_hint">Select a category</string>
+    <string name="note_hint">Add a note</string>
+    <string name="name_hint">Enter a name</string>
+
+    <!-- Titles -->
+    <string name="home_title">HOME</string>
+    <string name="transaction_title">TRANSACTION</string>
+    <string name="stats_title">STATS</string>
+    <string name="planning_title">PLANNING</string>
+    <string name="settings_title">SETTINGS</string>
+
+    <!-- Settings -->
+    <string name="categories_accounts_text">Categories and accounts</string>
+    <string name="accounts_text">Accounts</string>
+    <string name="expense_categories_text">Expense categories</string>
+    <string name="income_categories_text">Income categories</string>
+    <string name="go_back_to_settings_description">Go back to settings</string>
+    <string name="accounts_current_balance">Current balance</string>
+    <string name="go_back_to_accounts_description">Go back to accounts</string>
+    <string name="add_new_account_text">Add new account</string>
+    <string name="add_account_text">Add account</string>
+    <string name="initial_budget_text">Initial budget</string>
+    <string name="add_new_category_text">Add new category</string>
+    <string name="add_category_text">Add category</string>
+    <string name="add_new_expense_category_text">Add new expense category</string>
+    <string name="add_new_income_category_text">Add new income category</string>
+    <string name="delete_account_text">Delete account</string>
+    <string name="delete_category_text">Delete category</string>
+    <string name="account_info_text">account</string>
+    <string name="delete_category_info_text">category</string>
+    <string name="name_error">Enter a name</string>
+    <string name="repeated_name_account_error">An account with this name already exists</string>
+    <string name="repeated_name_category_error">A category of this type with this name already exists</string>
+    <string name="too_many_accounts">The maximum number of accounts is 20</string>
+    <string name="too_many_categories">The maximum number of categories of each type is 30</string>
+
+
+    <!-- Home -->
+    <string name="expenses_button_text">Expenses</string>
+    <string name="incomes_button_text">Incomes</string>
+    <string name="all_button_text">All</string>
+    <string name="edit_transaction_text">Edit transaction</string>
+    <string name="delete_transaction_text">Delete transaction</string>
+
+    <!-- Common -->
+    <string name="name_text">Name</string>
+</resources>

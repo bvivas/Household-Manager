@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_section_text" />
+    <item
+        android:id="@id/statsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_pie_chart_24"
+        android:title="@string/stats_section_text"/>
+    <item
+        android:id="@id/newTransactionFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="@string/transaction_section_text"/>
+    <item
+        android:id="@id/planningFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_month_24"
+        android:title="@string/planning_section_text"/>
+    <item
+        android:id="@id/settingsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings_section_text"/>
+</menu>
