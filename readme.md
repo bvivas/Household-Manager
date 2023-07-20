@@ -4,9 +4,14 @@ Android application for managing the economy of a household. Developed for the B
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white) 	![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
+- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Credits](#credits)
 
+## Project Structure
+- `App`: Android Studio project directory.
+- `media`: GIF images for documentation.
 
 ## Installation
 To test the app, it will be necessary to have Android Studio installed, and configure the emulator.
@@ -62,3 +67,7 @@ Add a new transaction, check the account budget and later edit the transaction.
 <p align="center">
   <img src="https://github.com/bvivas/Household-Manager/blob/master/media/transaction.gif" width="350">
 </p>
+
+## Credits
+
+[Belén Vivas García](https://github.com/bvivas)
