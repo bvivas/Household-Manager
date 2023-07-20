@@ -41,12 +41,24 @@ There are five main sections:
 ## Demo
 ### Small tour
 
-First look at each of the five sections.
+First look at each of the five sections.  
+  
+<p align="center">
+  <img src="https://github.com/bvivas/Household-Manager/blob/master/media/show_app.gif" width="350">
+</p>
 
 ### Filters and stats
 
-See how the filters and stats work.
+See how the filters and stats work.  
+  
+<p align="center">
+  <img src="https://github.com/bvivas/Household-Manager/blob/master/media/filter_stats.gif" width="350">
+</p>
 
 ### New transaction
 
-Add a new transaction, check the account budget and later edit the transaction.
+Add a new transaction, check the account budget and later edit the transaction.  
+  
+<p align="center">
+  <img src="https://github.com/bvivas/Household-Manager/blob/master/media/transaction.gif" width="350">
+</p>
