@@ -29,4 +29,24 @@ Once the device is created, start it and enable the developer options going to *
 While using the application, the database will be accessible in the *App inspection* tab.  
 
 ## Usage
-Once the app is started, tap on the logo and you will be prompted to the *Home Screen*.
+Once the app is started, tap on the logo and you will be prompted to the *Home Screen*.  
+
+There are five main sections:  
+- **Home:** all transactions will be shown here, from newest to oldest. Each transaction will show its name, the amount of money spent, the account used, the category it belongs to, the date, and an optional note. You can filter transactions by expenses, incomes or all together. Also, tapping on a transaction will display the *Edit Transaction Screen*, where you can edit any field of the transaction, hence the accounts budget and category stats will be recalculated.
+- **Stats:** this screen will display a pie chart showing the proportion each category has been used, for expense and income categories. It will also display a bar chart showing the balance between them.
+- **New Transaction:** you can make a new transaction here. You have to enter a name, an amount of money, the account to extract the money from or insert into, the category it belongs to and an optional note.
+- **Planning:** this section shows a calendar which will (may) be implemented in the future with amazing features!
+- **Settings:** in this last section you can check your accounts and categories, being able to add new ones and delete them.
+
+## Demo
+### Small tour
+
+First look at each of the five sections.
+
+### Filters and stats
+
+See how the filters and stats work.
+
+### New transaction
+
+Add a new transaction, check the account budget and later edit the transaction.
